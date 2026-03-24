@@ -38,7 +38,7 @@ int main() {
     end = clock();
     printf("Iterativo: %lld | Tempo: %f s\n", res_i, ((double) (end - start)) / CLOCKS_PER_SEC);
 
-    // Teste Recursivo (Aviso: pode demorar alguns segundos)
+    // Teste Recursivo
     printf("Calculando recursivo (aguarde)...\n");
     start = clock();
     long long res_r = fibonacci_recursivo(n);
